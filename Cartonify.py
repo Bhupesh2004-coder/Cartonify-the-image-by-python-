@@ -1,7 +1,7 @@
 import cv2 
 import numpy as np
 
-img = cv2.imread(r"C:\Users\bhupe\OneDrive\Pictures\Screenshots\Screenshot 2024-06-28 110655.png")
+img = cv2.imread(r"copy_the_path_of_image_and_paste_it_here_which_you_wanted_to_cartonify_the_image")
 
 # 1) Edges
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
